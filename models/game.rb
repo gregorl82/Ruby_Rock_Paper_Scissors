@@ -5,19 +5,19 @@ class Game
     player2.downcase!
     case
     when player1 == "rock" && player2 == "scissors"
-        return "Rock"
+        return "Player 1 wins by playing Rock!"
       when player1 == "rock" && player2 == "paper"
-        return "Paper"
+        return "Player 2 wins by playing Paper!"
       when player1 == "scissors" && player2 == "rock"
-        return "Rock"
+        return "Player 2 wins by playing Rock!"
       when player1 == "scissors" && player2 == "paper"
-        return "Scissors"
+        return "Player 1 wins by playing Scissors!"
       when player1 == "paper" && player2 == "rock"
-        return "Paper"
+        return "Player 1 wins by playing Paper!"
       when player1 == "paper" && player2 == "scissors"
-        return "Scissors"
+        return "Player 2 wins by playing Scissors!"
       when player1 == player2
-        return "No one"
+        return "It's a draw!"
     end
   end
 
