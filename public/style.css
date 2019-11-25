@@ -1,0 +1,41 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: lightblue;
+  color: darkblue;
+  margin: 20px;
+}
+
+ol {
+  line-height: 3.5;
+}
+
+nav li {
+  text-align: center;
+  list-style: none;
+  font-size: 35px;
+}
+
+nav li a {
+  font-variant: small-caps;
+  color: purple;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: coral;
+}
+
+nav li a:hover {
+  background-color: pink;
+  transition-duration: 0.3s;
+}
+
+#welcome-title {
+  font-weight: bolder;
+  text-align: center;
+}
+
+#result-text {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+}
